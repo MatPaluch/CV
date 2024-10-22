@@ -88,8 +88,7 @@ main {
   width: 65%;
   padding: 64px 48px;
 }
-.main-description {
-}
+
 .main-description h2 {
   font-size: 24px;
 }
@@ -102,24 +101,18 @@ main {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-  margin-bottom: 40px;
-}
-.project {
-  list-style-position: inside;
-  margin-bottom: 51px;
 }
 .project h2 {
   margin-bottom: 8px;
 }
 .links {
-  display: flex;
   font-size: 14px;
   font-weight: 700;
   line-height: 24px;
 }
 .links ol {
   margin: 0;
-  padding-left: 0px;
+  padding-left: 16px;
 }
 .links a {
   color: #595959;
@@ -139,6 +132,13 @@ main {
   color: #595959;
   font-weight: 400;
 }
+.link-container {
+  display: flex;
+  justify-content: space-between;
+}
+.low-dash {
+  color: #595959;
+}
 .github-profile {
   line-height: 32px;
 }
@@ -150,26 +150,6 @@ main {
   margin-left: 10px;
   width: 16px;
   height: 16px;
-}
-
-.link-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  padding: 5px 0;
-}
-
-.link-container a {
-  flex: 0 0 auto; /* Zapobiega rozciąganiu linku */
-  color: #007bff; /* Kolor linku */
-  text-decoration: none;
-}
-
-.link-container .brackets {
-  flex: 0 0 auto; /* Zapobiega rozciąganiu nawiasów */
-  font-weight: bold;
-  margin-left: 10px; /* Dodaje trochę odstępu od linii przerywanej */
 }
 
 .highlight {
