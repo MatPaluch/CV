@@ -1,6 +1,5 @@
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: red;
   margin: 0;
 }
 h2 {
@@ -14,8 +13,9 @@ h3 {
   flex-direction: row-reverse;
   min-width: 1048px;
   width: 1048px;
+  margin: 0 auto;
   justify-content: center;
-  background-color: white;
+  background-color: ghostwhite;
 }
 
 aside {
@@ -25,7 +25,7 @@ aside {
   font-size: 16px;
 }
 .margin-block {
-  margin-top: 51px;
+  margin-top: 40px;
   list-style-position: inside;
 }
 .cv-photo {
@@ -198,4 +198,14 @@ main {
 .organizer {
   color: #595959;
   font-size: 14px;
+}
+
+@media print {
+  .rent {
+    margin-top: 160px;
+    padding-top: 30px;
+  }
+  .lang {
+    padding-top: 30px;
+  }
 }
