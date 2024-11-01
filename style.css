@@ -1,153 +1,211 @@
 body {
-    font-family: "Montserrat", sans-serif;
-    background-color: aliceblue;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
 }
 h2 {
-    font-size: 22px;
+  font-size: 22px;
 }
 h3 {
-    font-size: 16px;
+  font-size: 16px;
 }
 .wrapper {
-    display: flex;
-    flex-direction: row-reverse;
-    width: 1200px;
-    justify-content: center;
-    margin: 0 auto;
-    background-color: white;
-    box-shadow: 6px 6px 20px 0px grey;
+  display: flex;
+  flex-direction: row-reverse;
+  min-width: 1048px;
+  width: 1048px;
+  margin: 0 auto;
+  justify-content: center;
+  background-color: ghostwhite;
 }
 
 aside {
-    width: 370px;
-    background: #1e2939;
-}
-.cv-photo {
-    margin-top: 25px;
-}
-aside h2 {
-    color: white;
-}
-.contact-links {
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: 400;
-    opacity: 0.5;
-    color: white;
-}
-.bold {
-    font-weight: 700;
-    color: white;
-    margin-right: 10px;
-    font-size: 14px;
-}
-.list-secondary {
-    color: #fb6d3a;
-    padding-left: 0;
-}
-.list-secondary span {
-    color: #fff;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
+  width: 35%;
+  background: #1e2939;
+  padding: 40px;
+  font-size: 16px;
 }
 .margin-block {
-    margin-top: 51px;
-    margin-left: 40px;
-    list-style-position: inside;
+  margin-top: 40px;
+  list-style-position: inside;
+}
+.cv-photo {
+  display: block;
+  margin: 0 auto;
+  width: 236px;
+}
+aside h2 {
+  color: white;
+}
+aside h3 {
+  margin: 0;
+  color: white;
+}
+.contact-links {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  opacity: 0.5;
+  color: white;
+}
+.bold {
+  font-weight: 700;
+  color: white;
+  margin-right: 10px;
+  font-size: 14px;
+}
+.linkedin {
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+}
+.linkedin > a {
+  margin-left: 10px;
+}
+.ico-linkedin {
+  width: 24px;
+  height: 24px;
+  fill: white;
+}
+
+.list-stack {
+  color: #fb6d3a;
+  padding-left: 20px;
+}
+.list-stack span {
+  color: white;
+}
+
+.list-secondary {
+  color: #fb6d3a;
+  padding-left: 0;
+  line-height: 24px;
+}
+.list-secondary span {
+  color: white;
 }
 
 main {
-    padding: 102px 88px 102px 88px;
+  width: 65%;
+  padding: 64px 48px;
 }
-.main-description {
-    width: 400px;
-}
+
 .main-description h2 {
-    font-size: 14px;
+  font-size: 24px;
 }
 .main-description h1 {
-    font-size: 45px;
+  width: 400px;
+  font-size: 45px;
 }
 .description {
-    color: #595959;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    margin-bottom: 40px;
-}
-.project {
-    list-style-position: inside;
-    margin-bottom: 51px;
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
 }
 .project h2 {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 .links {
-    display: flex;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 24px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
 }
 .links ol {
-    margin: 0;
-    padding-left: 0px;
+  margin: 0;
+  padding-left: 16px;
 }
 .links a {
-    color: #595959;
-    font-weight: 400;
+  color: #595959;
+  font-weight: 400;
 }
 .links svg {
-    margin-top: 17px;
-    margin-bottom: 7px;
-    margin-left: -50px;
+  margin-top: 17px;
+  margin-bottom: 7px;
+  margin-left: -50px;
 }
 .links ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .links span {
-    color: #595959;
-    font-weight: 400;
+  color: #595959;
+  font-weight: 400;
+}
+.link-container {
+  display: flex;
+  justify-content: space-between;
+}
+.low-dash {
+  color: #595959;
+}
+.github-profile {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 312px;
+  line-height: 32px;
+}
+.github-profile a {
+  color: #595959;
+  font-weight: 400;
+}
+.arrow-turn-down {
+  margin-left: 10px;
+  width: 16px;
+  height: 16px;
 }
 
 .highlight {
-    color: #fb6d3a;
+  color: #fb6d3a;
 }
 
 .work-exp p {
-    color: #a8a8a8;
-    font-size: 12px;
-    font-weight: 400;
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
 }
 .work-exp {
-    color: black;
-    width: 509px;
+  color: black;
+  width: 509px;
 }
 .job-list {
-    color: #595959;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    padding: 0;
-    list-style-position: inside;
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 0;
+  list-style-position: inside;
 }
 .education {
-    color: black;
-    width: 509px;
-    margin-top: 43px;
+  color: black;
+  width: 509px;
+  margin-top: 43px;
 }
 .education p {
-    color: #a8a8a8;
-    font-size: 12px;
-    font-weight: 400;
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
 }
 .marks {
-    color: #595959;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    padding: 0;
-    list-style-position: inside;
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 0;
+  list-style-position: inside;
+}
+.organizer {
+  color: #595959;
+  font-size: 14px;
+}
+
+@media print {
+  .rent {
+    margin-top: 160px;
+    padding-top: 30px;
+  }
+  .lang {
+    padding-top: 30px;
+  }
 }
