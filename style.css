@@ -199,13 +199,16 @@ main {
   color: #595959;
   font-size: 14px;
 }
+.clause {
+  font-size: 10px;
+  color: #a8a8a8;
+}
 
 @media print {
   .rent {
-    margin-top: 160px;
-    padding-top: 30px;
+    padding-top: 4px;
   }
   .lang {
-    padding-top: 30px;
+    padding-top: 4px;
   }
 }
